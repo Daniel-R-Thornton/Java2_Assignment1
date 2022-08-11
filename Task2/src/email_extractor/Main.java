@@ -89,7 +89,6 @@ public class Main {
         return stringLines[2];
     }
 
-
     /**
      * Prints emails from a list to the console
      * @param emails List of emails to print
