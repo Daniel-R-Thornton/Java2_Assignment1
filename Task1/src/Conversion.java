@@ -42,6 +42,7 @@ public class Conversion {
 
   }
 
+
   /**
    * /** Converts a binary string to a decimal number.
    *
