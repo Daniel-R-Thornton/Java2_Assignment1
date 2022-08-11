@@ -1,11 +1,9 @@
-import java.util.Stack;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 public class Conversion {
 
-  //private constructor to hide the implicit public one
-  private conversion() {
-  }
-
+  private Conversion() {}
 
   /**
    * Converts a binary string to an integer
@@ -45,7 +43,8 @@ public class Conversion {
   }
 
   /**
-   * Converts a binary string to a decimal number.
+   * /** Converts a binary string to a decimal number.
+   *
    * @param bin string to convert
    * @return Integer of the base 10 representation of the binary string.
    * @throws BinaryFormatException if input string contains invalid characters

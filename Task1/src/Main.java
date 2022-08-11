@@ -22,7 +22,7 @@ public class Main {
       int outputString = Conversion.binaryToDecimal(binary);
       System.out.println(outputString);
     }catch (BinaryFormatException be){
-      System.err.println("BinaryFormatException caught {"+be.getMessage()+"}");
+      System.err.println("Unable to convert " + binary + " " + be.getMessage());
     }
   }
 
